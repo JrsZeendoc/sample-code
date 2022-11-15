@@ -9,7 +9,7 @@ pipeline {
 
     stage('run-test-job') {
       steps {
-        tpJobRun(projectId: 'CLMgcB7Sr0CoW2Vm-2fsVQ', jobId: '9cf5yOumDUS7FSGsa36Bmw', agentId: 'S_Zcsb3S6EOgWD-rvpaJ5Q', waitJobFinishSeconds: 300, junitResultsFile: 'reports/junit.xml')
+        tpJobRun(projectId: 'yMc68Oy_7EisOGHp3ZCehQ-2fsVQ', jobId: 'uwwWHUeyJRoC48hQdQ', waitJobFinishSeconds: 300, junitResultsFile: 'reports/junit.xml')
       }
     }
 
